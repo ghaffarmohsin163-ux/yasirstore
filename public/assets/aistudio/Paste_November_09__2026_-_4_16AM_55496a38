@@ -1,0 +1,1337 @@
+# COMPLETE MASTER PROMPT — YASIR STORE
+## Premium Large-Scale E-Commerce Website With Product Popups, Customer Checkout, QR Payment Simulation & Email Notifications
+
+You are an expert full-stack web developer, senior UI/UX designer, e-commerce architect, and professional website designer.
+
+I want you to build a complete, large-scale, premium e-commerce website for **YASIR STORE**.
+
+I will provide a reference website image along with this prompt. Carefully examine the uploaded image and use it as a visual design reference. Follow its overall visual quality, layout inspiration, spacing, and presentation while implementing all the functionality specified below.
+
+Do not create a basic website, a short landing page, or a static mockup.
+
+Build a complete, interactive, beautiful, professional shopping website with all sections, 35 product cards, 7 product categories, detailed product popups, customer information forms, QR payment simulation, order success screens, and order email notifications.
+
+**IMPORTANT: I want the entire project completed in one implementation. Do not stop after building the home section.**
+
+# 1. STORE INFORMATION
+
+Brand Name: YASIR STORE
+
+Business Type: Premium E-Commerce Store
+
+Store Rating: 4.9/5 ★★★★★
+
+Customer Reviews: 430+ Reviews
+
+Location: Commercial Area, Phase 6, DHA, Lahore, Pakistan.
+
+Online Store Availability: 24/7
+
+Customer Care Hours: 09:00 AM – 09:00 PM Daily.
+
+WhatsApp: +92 300 3456789
+
+Currency: PKR.
+
+Order Notification Email: tiktokpakitanmedia344@gmail.com
+
+The website's primary user interface should be in professional English.
+
+# 2. WEBSITE DESIGN AND VISUAL STYLE
+
+Create a very large, premium, modern, professional shopping website.
+
+The design should look like an established international e-commerce brand.
+
+Use the provided reference image to understand the intended visual direction.
+
+### Color palette
+
+- White: #FFFFFF
+- Light background: #F7F7F7
+- Primary text: #171717
+- Secondary text: #777777
+- Premium gold: #B89155
+- Dark background: #151515
+- Borders: #E8E8E8
+- Success green: #16834A
+- Discount red: #E74C4C
+
+### Typography
+
+Use Manrope or Inter.
+
+Use attractive large headings, readable product descriptions, elegant pricing, and strong visual hierarchy.
+
+### Visual requirements
+
+- Large, beautiful product photographs.
+- Premium product cards.
+- Large section headings.
+- Professional product galleries.
+- Elegant animations.
+- Smooth transitions.
+- Large image banners.
+- Premium shadows.
+- Clean spacing.
+- Attractive hover effects.
+- Consistent rounded corners.
+- Professional icons.
+- Excellent mobile presentation.
+
+The website must look expensive, polished, and professionally designed.
+
+Do not use cheap-looking templates or excessive gradients.
+
+# 3. HEADER — EXACTLY FOUR SECTION LINKS
+
+The main website header must contain ONLY these four navigation links:
+
+1. Home
+2. Shop
+3. About Us
+4. Contact
+
+Do not add additional section names to the navigation header.
+
+All other homepage sections must be visible when users scroll down, but their names must not appear in the main header.
+
+### Header layout
+
+LEFT:
+YASIR STORE logo.
+
+CENTER:
+Home | Shop | About Us | Contact
+
+RIGHT:
+- Search icon.
+- Shopping bag icon.
+- WhatsApp icon.
+
+Make the header:
+- Sticky.
+- Responsive.
+- Elegant.
+- Modern.
+- Professionally spaced.
+- Fully functional.
+
+On mobile, use a beautiful hamburger menu containing only the same four navigation links.
+
+# 4. HOME SECTION
+
+Create an impressive and visually rich homepage.
+
+The Home section must have its OWN unique content.
+
+Do not copy About Us text into Home.
+
+Do not repeat the same descriptions across sections.
+
+### Hero banner
+
+Large headline:
+
+"Discover More. Shop Better. Live Smarter."
+
+Supporting text:
+
+"Explore a curated collection of modern electronics, stylish accessories, and everyday essentials at Yasir Store."
+
+Buttons:
+- EXPLORE COLLECTION
+- SHOP NOW
+
+Use a beautiful, wide product photography composition.
+
+Include attractive visual elements and elegant animations.
+
+The hero should occupy a substantial amount of the first screen.
+
+### Additional home content
+
+Include:
+- A premium promotional banner.
+- A short shopping introduction.
+- Trust indicators.
+- Attractive category previews.
+- Featured products.
+- New arrivals.
+- A large visual collection banner.
+
+Keep this section visually impressive and distinct from About Us.
+
+# 5. ABOUT SECTION
+
+Create a separate, substantial About Us section.
+
+Heading:
+
+"About Yasir Store"
+
+Description:
+
+"Yasir Store is an online shopping destination bringing together carefully selected electronics, personal accessories, lifestyle products, and everyday essentials. Our goal is to provide customers with a convenient and enjoyable shopping experience through carefully presented products and direct customer support."
+
+Include:
+- Premium visual layout.
+- Store introduction.
+- Product quality commitment.
+- Customer-focused approach.
+- Convenient shopping information.
+- Supporting product and lifestyle imagery.
+
+Do not repeat the Home section's hero copy.
+
+Do not invent the store's founding date, company history, certifications, or manufacturing claims.
+
+# 6. OUR SPECIALTIES / PRODUCT COLLECTION
+
+Create a LARGE section named:
+
+"Our Specialties"
+
+This is the main shopping catalog.
+
+I want **35 individual product cards divided into 7 separate product categories**.
+
+Each category must have its own attractive heading and product grid.
+
+Display five products per category.
+
+Make this section long, rich, visually attractive, and professionally organized.
+
+## The seven product categories
+
+1. Electronics & Audio
+2. Mobile Accessories
+3. Computer Accessories
+4. Fashion Accessories
+5. Wearables & Fitness
+6. Bags & Travel
+7. Lifestyle & Desk
+
+Add attractive category navigation and filtering.
+
+Each category should have:
+- Category heading.
+- Short category description.
+- Attractive category banner or image.
+- Five product cards.
+
+Include a functional search bar above the product catalog.
+
+Customers must be able to search by product name or category.
+
+# 7. PRODUCT CARD DESIGN — VERY IMPORTANT
+
+Every product must have its own individual, attractive product card.
+
+I want large product images and professional product presentations.
+
+### Exact product card layout
+
+TOP:
+Large product image.
+
+BELOW IMAGE:
+Large, bold product name.
+
+BELOW NAME:
+A short, one-line product description.
+
+BOTTOM:
+A wide BUY NOW button with a right-arrow icon.
+
+Display the product price prominently on the right side of the Buy button.
+
+Example:
+
+[ Product Image ]
+
+WIRELESS HEADPHONES
+
+Premium audio with active noise cancellation.
+
+[ BUY NOW → ]       PKR 8,499
+
+Also display:
+- Product category.
+- Discount label when available.
+- Stock availability.
+- Product-specific promotional badge where configured.
+
+### Critical button behavior
+
+Every product card must have a working BUY NOW button.
+
+Clicking BUY NOW must open that particular product's detail popup.
+
+DO NOT redirect the user to WhatsApp.
+
+DO NOT redirect the user to another page.
+
+DO NOT directly open the checkout form.
+
+The correct behavior is:
+
+PRODUCT CARD → BUY NOW → PRODUCT DETAILS POPUP.
+
+Every product must open its own correct information.
+
+# 8. PRODUCT DATABASE — 35 PRODUCTS
+
+Create a centralized product database containing all 35 products.
+
+Product information must be dynamically loaded into product cards and product popups.
+
+The first two products have real supplied information. Remaining additional products are editable demo products and must not be represented as independently verified stock or offers.
+
+## CATEGORY 1 — ELECTRONICS & AUDIO
+
+**Product 01: Wireless Noise-Canceling Headphones**
+
+Price: PKR 8,499
+
+Original Price: PKR 11,999
+
+Stock: In Stock
+
+Stock Quantity: 5 Units Left
+
+Description:
+
+Premium Bluetooth 5.3 over-ear headphones with active noise cancellation, 40-hour battery life, deep bass response, and ultra-soft memory foam ear cushions.
+
+Specifications:
+- Bluetooth 5.3
+- Over-ear design
+- Active Noise Cancellation
+- 40-hour battery
+- Deep bass
+- Memory foam cushions
+
+**Product 02: Premium Wireless Earbuds**
+
+Demo Price: PKR 3,499
+
+Description: Compact wireless earbuds with a modern charging case and comfortable ergonomic design.
+
+**Product 03: Portable Bluetooth Speaker**
+
+Demo Price: PKR 4,499
+
+Description: Portable wireless speaker with a stylish design and powerful sound presentation.
+
+**Product 04: 20,000mAh Power Bank**
+
+Demo Price: PKR 6,499
+
+Description: Compact portable power bank for convenient device charging.
+
+**Product 05: Mini Portable Projector**
+
+Demo Price: PKR 12,999
+
+Description: Compact portable projector for enjoying visual entertainment on a larger display.
+
+## CATEGORY 2 — MOBILE ACCESSORIES
+
+**Product 06: USB-C Fast Charging Adapter**
+
+Demo Price: PKR 2,499
+
+Description: Compact USB-C charging adapter for compatible mobile devices.
+
+**Product 07: Adjustable Mobile Phone Stand**
+
+Demo Price: PKR 999
+
+Description: Compact adjustable phone stand for convenient viewing.
+
+**Product 08: Braided USB-C Charging Cable**
+
+Demo Price: PKR 799
+
+Description: Durable-looking braided charging cable for compatible devices.
+
+**Product 09: Wireless Charging Pad**
+
+Demo Price: PKR 2,499
+
+Description: Modern wireless charging pad with a minimalist design.
+
+**Product 10: Universal Car Phone Holder**
+
+Demo Price: PKR 1,299
+
+Description: Convenient phone holder designed for everyday car use.
+
+## CATEGORY 3 — COMPUTER ACCESSORIES
+
+**Product 11: Wireless Gaming Mouse**
+
+Demo Price: PKR 2,199
+
+Description: Modern wireless mouse with an ergonomic shape and smooth navigation.
+
+**Product 12: Mechanical Gaming Keyboard**
+
+Demo Price: PKR 7,999
+
+Description: Stylish mechanical keyboard designed for gaming and productivity.
+
+**Product 13: Adjustable Laptop Stand**
+
+Demo Price: PKR 2,999
+
+Description: Adjustable stand for a comfortable laptop setup.
+
+**Product 14: 7-in-1 USB-C Hub**
+
+Demo Price: PKR 3,499
+
+Description: Multiport USB-C hub for expanding compatible device connectivity.
+
+**Product 15: Wireless Keyboard and Mouse Combo**
+
+Demo Price: PKR 4,999
+
+Description: Matching wireless keyboard and mouse set for everyday productivity.
+
+## CATEGORY 4 — FASHION ACCESSORIES
+
+**Product 16: Minimalist Matte Leather Wallet**
+
+Price: PKR 2,299
+
+Stock: In Stock
+
+Description:
+
+Handcrafted genuine leather slim bi-fold wallet featuring RFID protection, 6 card slots, and dual currency compartments.
+
+Specifications:
+- Genuine leather
+- Slim bi-fold design
+- Matte finish
+- RFID protection
+- 6 card slots
+- Dual currency compartments
+
+**Product 17: Classic Premium Sunglasses**
+
+Demo Price: PKR 1,999
+
+Description: Elegant sunglasses with a timeless frame design.
+
+**Product 18: Classic Leather Belt**
+
+Demo Price: PKR 2,499
+
+Description: Minimalist belt designed for everyday formal and casual outfits.
+
+**Product 19: Slim RFID Card Holder**
+
+Demo Price: PKR 1,499
+
+Description: Compact card holder for convenient everyday carry.
+
+**Product 20: Classic Analog Wristwatch**
+
+Demo Price: PKR 3,499
+
+Description: Elegant wristwatch with a classic and timeless appearance.
+
+## CATEGORY 5 — WEARABLES & FITNESS
+
+**Product 21: Smart Fitness Watch**
+
+Demo Price: PKR 5,999
+
+Description: Modern smartwatch with a digital display and everyday fitness tracking features.
+
+**Product 22: Fitness Activity Band**
+
+Demo Price: PKR 3,999
+
+Description: Lightweight wearable activity band with a modern design.
+
+**Product 23: Smart Fitness Ring**
+
+Demo Price: PKR 7,499
+
+Description: Minimalist wearable ring concept with a contemporary design.
+
+**Product 24: Digital Sports Watch**
+
+Demo Price: PKR 2,999
+
+Description: Digital sports watch with a modern everyday appearance.
+
+**Product 25: Gym Workout Gloves**
+
+Demo Price: PKR 1,499
+
+Description: Practical workout gloves for everyday fitness activities.
+
+## CATEGORY 6 — BAGS & TRAVEL
+
+**Product 26: Premium Laptop Backpack**
+
+Demo Price: PKR 4,299
+
+Description: Modern everyday backpack with a professional look and organized storage compartments.
+
+**Product 27: Travel Organizer Pouch**
+
+Demo Price: PKR 1,899
+
+Description: Practical organizer pouch for travel essentials and accessories.
+
+**Product 28: Compact Travel Duffel Bag**
+
+Demo Price: PKR 5,499
+
+Description: Versatile travel bag with a contemporary and practical design.
+
+**Product 29: Crossbody Sling Bag**
+
+Demo Price: PKR 2,499
+
+Description: Compact modern sling bag for everyday essentials.
+
+**Product 30: Travel Packing Cubes Set**
+
+Demo Price: PKR 1,699
+
+Description: Organized packing accessories for convenient travel.
+
+## CATEGORY 7 — LIFESTYLE & DESK
+
+**Product 31: Stainless Steel Water Bottle**
+
+Demo Price: PKR 1,799
+
+Description: Stylish reusable water bottle with a modern minimalist appearance.
+
+**Product 32: Modern LED Desk Lamp**
+
+Demo Price: PKR 3,299
+
+Description: Contemporary desk lamp designed for workspaces and study areas.
+
+**Product 33: Premium Hardcover Notebook**
+
+Demo Price: PKR 899
+
+Description: Elegant notebook for notes, planning, and everyday writing.
+
+**Product 34: Wooden Desk Organizer**
+
+Demo Price: PKR 1,899
+
+Description: Attractive organizer for keeping a workspace neat and organized.
+
+**Product 35: Insulated Travel Mug**
+
+Demo Price: PKR 1,599
+
+Description: Modern reusable travel mug for convenient everyday use.
+
+### PRODUCT DATA RULES
+
+- Preserve the exact first two supplied products' prices, descriptions, and specifications.
+- All other products are clearly marked as sample demo inventory.
+- Make product details editable.
+- Do not invent customer reviews.
+- Do not invent actual warehouse stock synchronization.
+- Display sample prices as demo content until verified.
+- Use consistent product photography for every individual product.
+
+# 9. PRODUCT DETAIL POPUP — EXACT DESIGN
+
+This is the most important interaction on the entire website.
+
+When a customer clicks BUY NOW on any product card, open a large, elegant product-detail popup.
+
+The popup must use a premium two-column layout on desktop.
+
+Do not change this layout.
+
+## LEFT SIDE — PRODUCT IMAGE
+
+Display:
+
+- One very large main product image.
+- Product image gallery underneath.
+- Four thumbnails.
+- Previous and next image buttons.
+- Image zoom functionality.
+- Smooth image transition.
+
+The selected product's image must appear here.
+
+When the thumbnail changes, the main image changes immediately.
+
+All images must belong to the same selected product.
+
+Under the large image, show the selected product's PRICE.
+
+## RIGHT SIDE — PRODUCT INFORMATION
+
+Display all information in this order:
+
+1. Large product name.
+2. Product category.
+3. Total price for the selected quantity.
+4. Original price if available.
+5. Discount label if applicable.
+6. A detailed five-line product description.
+7. Product highlights.
+8. Product specifications.
+9. Stock availability.
+10. Remaining stock if known.
+11. Quantity selector.
+12. Order button.
+
+### Quantity selector
+
+Display:
+
+[-] 1 [+]
+
+Customers can increase or decrease the quantity.
+
+Rules:
+- Minimum quantity is 1.
+- Calculate the total amount automatically.
+- Never allow negative quantities.
+- Respect confirmed stock limits.
+- Keep all prices consistent.
+
+### Order button
+
+At the very bottom of the RIGHT SIDE, display a large premium button:
+
+ORDER NOW →
+
+This is the ONLY primary order button inside the product-detail popup.
+
+Do not add multiple competing order buttons.
+
+When clicked, open the second popup: CUSTOMER INFORMATION.
+
+### Product popup behavior
+
+- Open the correct product every time.
+- Display the correct gallery.
+- Display all product details dynamically.
+- Display the correct selected quantity.
+- Calculate totals correctly.
+- Close button must work.
+- Escape key must close popup.
+- Clicking outside closes popup.
+- Disable background scrolling while popup is open.
+
+### Mobile layout
+
+On mobile:
+- Product image at the top.
+- Thumbnails immediately below.
+- Product details underneath.
+- Quantity selector below specifications.
+- ORDER NOW button after all information.
+- Full-screen or near-full-screen layout.
+- No horizontal scrolling.
+
+# 10. SECOND POPUP — CUSTOMER INFORMATION
+
+When the customer clicks ORDER NOW, open another beautiful modal.
+
+Do not navigate away from the product experience.
+
+Heading:
+
+"Complete Your Order"
+
+Supporting text:
+
+"Please provide your contact information to continue to payment."
+
+Display the selected product information in a small order summary.
+
+Show:
+- Product image thumbnail.
+- Product name.
+- Selected quantity.
+- Unit price.
+- Total amount.
+
+### Customer form fields
+
+FIELD 1:
+
+Full Name
+
+Placeholder: Enter your full name.
+
+FIELD 2:
+
+Email Address
+
+Placeholder: Enter your email address.
+
+FIELD 3:
+
+Phone Number
+
+Placeholder: +92 XXX XXXXXXX
+
+FIELD 4:
+
+Delivery Location / Address
+
+Placeholder: Enter your complete delivery address.
+
+All four fields are required.
+
+### Form validation
+
+- Validate the customer's name.
+- Validate email format.
+- Validate phone number.
+- Require a complete delivery address.
+- Show useful error messages.
+- Do not continue when required fields are missing.
+
+### Bottom button
+
+CONTINUE TO PAYMENT →
+
+When clicked:
+- Save the customer information in the current order.
+- Generate a unique order ID.
+- Save product name.
+- Save quantity.
+- Save product unit price.
+- Save total price.
+- Proceed to the QR payment popup.
+
+# 11. THIRD POPUP — QR PAYMENT
+
+Create a very attractive QR payment modal.
+
+Heading:
+
+"Complete Your Payment"
+
+Description:
+
+"Scan the QR code below using your mobile device to continue with the demo payment process."
+
+### Display
+
+- Large scannable QR code.
+- Unique order ID.
+- Customer name.
+- Product name.
+- Quantity.
+- Total payment amount in PKR.
+
+Use a QR code generation library such as qrcode.react or an equivalent supported library.
+
+### QR requirements
+
+Generate a different QR code for each order.
+
+The QR payload must contain a unique demo payment reference, order ID, and payment amount.
+
+Display the following English instruction:
+
+"Open your QR scanner or mobile camera and scan the QR code to view your demo payment reference."
+
+Add a clear payment disclaimer:
+
+"This is a demonstration checkout. No real payment will be processed or collected."
+
+### DEMO PAYMENT SUCCESS
+
+Since this is a demo website and no real payment provider is connected, implement a clearly labeled functional simulation.
+
+Add a button:
+
+"SIMULATE SUCCESSFUL PAYMENT"
+
+When clicked:
+- Update the current order's payment status to PAID — DEMO.
+- Replace the QR code with a large green tick icon.
+- Animate the tick smoothly.
+- Display "Payment Successful".
+- Display the unique order ID.
+- Display the selected product name.
+- Display the selected quantity.
+- Display the total amount.
+
+IMPORTANT:
+
+Do not pretend that QR scanning itself verifies or receives a real payment.
+
+The simulation button is the actual demo success trigger.
+
+The QR code should be genuine and scannable, but it must not represent a fake bank or payment provider.
+
+# 12. FOURTH SCREEN — ORDER SUCCESS
+
+After the demo payment succeeds, display a beautiful success screen.
+
+Use a large green animated tick.
+
+Main heading:
+
+"Your Order Has Been Successfully Placed!"
+
+Supporting text:
+
+"Thank you for shopping with Yasir Store. Your demo order has been successfully recorded. We appreciate your trust and look forward to serving you."
+
+Display a personalized message.
+
+Example:
+
+"Thank you, Mohsin! Your Wireless Noise-Canceling Headphones order has been recorded successfully."
+
+Then show the final order summary:
+
+- Order ID.
+- Customer name.
+- Product name.
+- Quantity.
+- Total amount.
+- Delivery address.
+- Phone number.
+- Email address.
+- Payment status: Demo Paid.
+
+Show:
+
+"Thank You for Choosing Yasir Store!"
+
+Add button:
+
+CONTINUE SHOPPING
+
+Clicking it must close all checkout popups and return the user to the product catalog.
+
+Do not fabricate a courier, tracking number, or delivery confirmation.
+
+# 13. ORDER EMAIL NOTIFICATION
+
+This feature is essential.
+
+Send the order information to:
+
+tiktokpakitanmedia344@gmail.com
+
+Implement secure, server-side email sending.
+
+Use a suitable email service such as Resend with a server-side API endpoint.
+
+Never put secret API keys in frontend JavaScript.
+
+Create an environment configuration example.
+
+Required environment variables should include the email service API key and sender configuration.
+
+### Email notification timing
+
+When the demo order is completed successfully, trigger an order notification email.
+
+The email should contain:
+
+Subject:
+
+"New Yasir Store Order — [Order ID]"
+
+Email body:
+
+YASIR STORE — NEW ORDER NOTIFICATION
+
+Order ID: Unique Order ID
+
+Customer Name: Customer Name
+
+Customer Email: Customer Email
+
+Customer Phone: Customer Phone
+
+Delivery Address: Customer Address
+
+Product Name: Selected Product
+
+Product Category: Product Category
+
+Unit Price: PKR Amount
+
+Quantity: Selected Quantity
+
+Total Amount: PKR Total
+
+Payment Status: PAID — DEMO
+
+Order Date: Current Date and Time
+
+Include a professional HTML email layout.
+
+Avoid sending duplicate emails for the same order.
+
+### Email configuration rules
+
+- Send email through a secure server-side endpoint.
+- Handle email delivery errors.
+- Never claim an email was sent when delivery failed.
+- If credentials are missing, clearly display that email notifications are in demo mode.
+- Preserve the order in local demo storage.
+- Never expose API secrets.
+- Do not send real customer data to any unnecessary third-party service.
+
+# 14. BIG DEALS SECTION
+
+Create a separate large section called:
+
+"BIG DEALS"
+
+This section must appear below the main product collection.
+
+Display exactly five large promotional product deal cards.
+
+Each deal must have:
+- Large product image.
+- Product name.
+- Attractive promotional description.
+- Current price.
+- Previous price when configured.
+- Discount percentage.
+- BUY NOW button.
+
+The BUY NOW button must open the same product-detail popup described earlier.
+
+Reuse the same product database.
+
+Do not create a second, inconsistent product checkout system.
+
+Use:
+- The actual supplied headphones promotion.
+- Four editable demo promotions.
+
+Make the Big Deals section visually impressive, with large imagery and premium promotional banners.
+
+# 15. WHY CHOOSE YASIR STORE
+
+Create a substantial section explaining the shopping experience.
+
+Display six attractive feature cards:
+
+1. Carefully Selected Products
+2. Convenient Online Shopping
+3. Detailed Product Information
+4. Simple Ordering Experience
+5. Customer Support
+6. Easy Product Discovery
+
+Use elegant icons and professional descriptions.
+
+# 16. CUSTOMER REVIEWS AND STORE RATING
+
+Create a beautiful customer trust section.
+
+Display the supplied overall rating:
+
+4.9 / 5
+
+★★★★★
+
+430+ Reviews
+
+IMPORTANT:
+
+This is the store's overall rating, not a rating for every individual product.
+
+Do not create fabricated customer names, photos, testimonials, or individual product reviews.
+
+# 17. VISIT US SECTION
+
+Create a visually attractive Visit Us section.
+
+Heading:
+
+"Visit Yasir Store"
+
+Display:
+
+Address:
+
+Commercial Area, Phase 6, DHA, Lahore, Pakistan.
+
+Store Availability:
+
+Online Store — Open 24/7.
+
+Customer Care:
+
+09:00 AM – 09:00 PM Daily.
+
+WhatsApp:
+
++92 300 3456789.
+
+Rating:
+
+4.9 / 5 — 430+ Reviews.
+
+### Map
+
+Embed an interactive Google Map using a Google Maps search for the supplied address.
+
+Add a Get Directions button.
+
+Do not invent precise coordinates or a verified pin location.
+
+### Opening hours table
+
+Show a professionally designed weekly customer care schedule:
+
+Monday: 09:00 AM – 09:00 PM
+
+Tuesday: 09:00 AM – 09:00 PM
+
+Wednesday: 09:00 AM – 09:00 PM
+
+Thursday: 09:00 AM – 09:00 PM
+
+Friday: 09:00 AM – 09:00 PM
+
+Saturday: 09:00 AM – 09:00 PM
+
+Sunday: 09:00 AM – 09:00 PM
+
+Clearly label these as CUSTOMER CARE HOURS.
+
+The online store remains available 24/7.
+
+Do not claim the physical premises are open 24/7.
+
+# 18. HOW TO ORDER SECTION
+
+Create a visually attractive four-step shopping guide.
+
+Step 1:
+Explore Products.
+
+Step 2:
+Click Buy Now and View Details.
+
+Step 3:
+Provide Your Information.
+
+Step 4:
+Complete the Demo Payment Process.
+
+Explain each step briefly.
+
+Use beautiful icons and a connected timeline.
+
+# 19. FAQ SECTION
+
+Build a large interactive FAQ section using expandable accordions.
+
+Include:
+
+1. How can I place an order?
+2. How do I select product quantity?
+3. How can I view full product specifications?
+4. How does demo payment work?
+5. Is the payment gateway real?
+6. How can I contact Yasir Store?
+7. What are customer care hours?
+8. Where is the store located?
+9. How do I receive order confirmation?
+10. Are all product quantities verified?
+
+Use accurate answers.
+
+Clearly explain that the QR checkout is a demonstration, not a real-money payment system.
+
+# 20. CONTACT SECTION
+
+Create a premium Contact Us section.
+
+Display:
+
+YASIR STORE
+
+Commercial Area, Phase 6, DHA, Lahore, Pakistan.
+
+WhatsApp: +92 300 3456789
+
+Customer Care: 09:00 AM – 09:00 PM Daily.
+
+Online Store: 24/7.
+
+Buttons:
+- Chat on WhatsApp.
+- Get Directions.
+
+Use properly working links.
+
+# 21. FOOTER
+
+Create a large and premium footer.
+
+Include:
+
+- YASIR STORE logo.
+- Store description.
+- Home.
+- Shop.
+- About Us.
+- Contact.
+- Product categories.
+- Customer support.
+- WhatsApp information.
+- Store location.
+- Customer care hours.
+
+Copyright:
+
+"© 2026 Yasir Store. All Rights Reserved."
+
+Do not add extra navigation links to the main header.
+
+# 22. SEARCH AND FILTERING
+
+Build a fully functional search system.
+
+Customers must be able to search all 35 products by name and category.
+
+Include:
+- Search input.
+- Search icon.
+- Clear search button.
+- Category filter.
+- Product sorting.
+- Empty results state.
+
+Sorting:
+- Featured.
+- Price Low to High.
+- Price High to Low.
+- New Arrivals.
+
+Every filter must work.
+
+# 23. MOBILE RESPONSIVENESS
+
+The entire website must work on:
+
+- Desktop.
+- Laptop.
+- Tablet.
+- Android.
+- iPhone.
+
+Mobile requirements:
+- Responsive hamburger menu.
+- Touch-friendly product cards.
+- Easy-to-use search.
+- Product popup optimized for mobile.
+- Full-screen checkout experience.
+- Readable QR code.
+- Responsive forms.
+- No horizontal overflow.
+- Floating WhatsApp button.
+- Proper spacing and typography.
+
+Do not simply shrink desktop layouts.
+
+Design the mobile experience intentionally.
+
+# 24. ANIMATIONS
+
+Include professional, subtle animations:
+
+- Smooth scrolling.
+- Section entrance animations.
+- Product card hover effects.
+- Product image zoom.
+- Product popup transitions.
+- Gallery image transitions.
+- Quantity selector animation.
+- Checkout popup transitions.
+- QR payment screen transitions.
+- Success tick animation.
+- FAQ accordion animations.
+
+Respect reduced-motion preferences.
+
+# 25. TECHNICAL ARCHITECTURE
+
+Use the available Google AI Studio Build environment.
+
+Preferred technologies:
+
+- React.
+- TypeScript.
+- Tailwind CSS.
+- Reusable components.
+- Lucide icons.
+- QR code generation library.
+
+Create separate reusable components for:
+
+- AnnouncementBar
+- Header
+- HomeSection
+- AboutSection
+- CategorySection
+- ProductGrid
+- ProductCard
+- ProductDetailModal
+- ProductGallery
+- ProductInformation
+- QuantitySelector
+- CustomerInformationModal
+- QRPaymentModal
+- OrderSuccessScreen
+- BigDealsSection
+- StoreRating
+- VisitUsSection
+- OpeningHours
+- FAQSection
+- ContactSection
+- Footer
+
+Keep product data centralized.
+
+Keep checkout data separate from product data.
+
+Use reliable state management.
+
+Use unique order IDs.
+
+Prevent duplicate order creation.
+
+Make the checkout flow work from start to finish.
+
+Use a suitable persistence strategy for demo orders.
+
+Never store API keys or private email credentials in the frontend.
+
+# 26. REQUIRED TESTING
+
+Before finishing, test the following:
+
+### Product catalog
+- All 35 products appear.
+- Each category has five products.
+- All images load.
+- Prices are correct.
+- Search works.
+- Filtering works.
+
+### Product popup
+- Every BUY NOW button works.
+- Correct image opens.
+- Correct name appears.
+- Correct price appears.
+- Gallery thumbnails work.
+- Specifications appear.
+- Quantity changes correctly.
+- Total calculates correctly.
+
+### Customer information
+- Second modal opens.
+- All four fields appear.
+- Required validation works.
+- Product summary is correct.
+- Unique order ID is generated.
+
+### QR payment
+- QR code generates.
+- Order reference is correct.
+- Amount is correct.
+- Demo payment simulation works.
+- QR is replaced by a tick after success.
+
+### Order confirmation
+- Product name is correct.
+- Customer details are correct.
+- Quantity is correct.
+- Total is correct.
+- Success message appears.
+- Continue Shopping works.
+
+### Email
+- Email endpoint works when configured.
+- Order details are delivered to the designated email.
+- No duplicate notifications.
+- No false success message when delivery fails.
+
+### Responsive design
+- Desktop layout works.
+- Mobile layout works.
+- Popup layout works.
+- QR code is readable.
+- Forms are usable.
+
+# 27. ABSOLUTE IMPLEMENTATION RULES
+
+These instructions are mandatory:
+
+1. Build the entire website, not just a homepage.
+2. Header must have exactly four navigation links: Home, Shop, About Us, Contact.
+3. Home and About must contain different content.
+4. Create seven product categories.
+5. Display 35 initial product cards.
+6. Every product card must have a BUY NOW button.
+7. BUY NOW opens the product-detail popup.
+8. Product popup has images on the LEFT.
+9. Product information appears on the RIGHT.
+10. Product price under the image on the left.
+11. Product specifications, description, and quantity on the right.
+12. ORDER NOW button appears at the bottom of the right-side information.
+13. ORDER NOW opens the customer information popup.
+14. Customer popup includes Name, Email, Phone, and Address.
+15. CONTINUE TO PAYMENT opens the QR popup.
+16. QR popup displays the correct order amount.
+17. QR popup includes a demo payment success simulation.
+18. A green tick replaces the QR after successful simulation.
+19. The success screen displays the selected product name and order information.
+20. The customer order notification goes to tiktokpakitanmedia344@gmail.com when email integration is configured.
+21. Build the Big Deals section with five promotional product cards.
+22. Build the Visit Us section with map, rating, address, and customer care schedule.
+23. Build the complete FAQ section.
+24. Make every interactive button functional.
+25. Never create fake real-payment confirmation.
+26. Never claim emails were sent unless they were actually sent.
+27. Do not repeat content unnecessarily.
+28. Do not leave placeholder sections.
+29. Do not remove requested features to simplify development.
+30. Do not stop before implementing the complete checkout flow.
+
+# 28. FINAL EXPECTATION
+
+I want a huge, highly detailed, premium e-commerce website with a complete shopping journey.
+
+The exact customer journey must be:
+
+HOME → ABOUT → OUR SPECIALTIES → SELECT CATEGORY → PRODUCT CARD → BUY NOW → PRODUCT DETAIL POPUP → ORDER NOW → CUSTOMER INFORMATION POPUP → CONTINUE TO PAYMENT → QR PAYMENT POPUP → DEMO PAYMENT SUCCESS → GREEN TICK → ORDER CONFIRMATION.
+
+Every screen must be professionally designed and fully connected.
+
+The product cards, popups, forms, quantities, QR code, and success screen must all use the same selected product and order information.
+
+The website must be complete, consistent, responsive, visually beautiful, and ready for demonstration.
+
+**Do not simplify my requirements. Do not leave unfinished functionality. Build the entire Yasir Store website in one complete project.**

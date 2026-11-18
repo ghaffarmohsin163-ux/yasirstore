@@ -1,0 +1,6 @@
+{
+  "name": "Yasir Store",
+  "description": "Premium e-commerce store in Pakistan offering curated consumer electronics and fashion accessories with convenient WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
