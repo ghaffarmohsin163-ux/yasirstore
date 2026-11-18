@@ -1,9 +1,12 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
 import {
   ABOUT_METRICS,
   ABOUT_PILLARS,
   CUSTOMER_REVIEWS,
+  SHOWROOM_IMAGE,
   SHOWROOM_LANDMARKS,
   SHOWROOM_LOCATION,
   STORE_RATING_SUMMARY,
@@ -11,6 +14,22 @@ import {
   buildGoogleMapsUrl,
   clampMapZoom,
 } from './storeShowroom';
+
+test('showroom image resolves to an existing case-sensitive file under public/images', () => {
+  assert.ok(
+    SHOWROOM_IMAGE.startsWith('/images/'),
+    `SHOWROOM_IMAGE must use /images/..., got: ${SHOWROOM_IMAGE}`
+  );
+  const fileName = SHOWROOM_IMAGE.replace('/images/', '');
+  const imagesDir = path.resolve(process.cwd(), 'public', 'images');
+  const entries = fs.readdirSync(imagesDir);
+  assert.ok(
+    entries.includes(fileName),
+    `Showroom file "${fileName}" missing in public/images (case-sensitive check)`
+  );
+  const stat = fs.statSync(path.join(imagesDir, fileName));
+  assert.ok(stat.isFile() && stat.size > 0);
+});
 
 test('rating breakdown percentages sum to 100 and average matches summary', () => {
   const sum = STORE_RATING_SUMMARY.breakdown.reduce((acc, r) => acc + r.percentage, 0);

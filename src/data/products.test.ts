@@ -1,11 +1,57 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
 import {
   BRANDS,
   DEAL_SMARTPHONES,
+  HERO_BANNER_IMAGE,
+  HERO_SLIDES,
   POPULAR_SMARTPHONES,
+  PROMO_LINEUP_IMAGE,
   SMARTPHONES,
 } from './products';
+
+function assertPublicImageExistsCaseSensitive(url: string, label: string) {
+  assert.ok(
+    url.startsWith('/images/'),
+    `${label} must use /images/... path (not /src/ or /public/), got: ${url}`
+  );
+  assert.ok(
+    !url.startsWith('/src/') && !url.startsWith('/public/'),
+    `${label} must not reference /src/ or /public/ directly: ${url}`
+  );
+  const publicDir = path.resolve(process.cwd(), 'public');
+  const relativeParts = url.replace(/^\//, '').split('/');
+  let currentDir = publicDir;
+  for (const part of relativeParts) {
+    const entries = fs.readdirSync(currentDir);
+    assert.ok(
+      entries.includes(part),
+      `${label} path segment "${part}" not found (case-sensitive check) inside ${currentDir}`
+    );
+    currentDir = path.join(currentDir, part);
+  }
+  const stat = fs.statSync(currentDir);
+  assert.ok(stat.isFile() && stat.size > 0, `${label} image file is empty: ${currentDir}`);
+}
+
+test('all hero, promo, and smartphone images resolve to existing case-sensitive files under public/images', () => {
+  assertPublicImageExistsCaseSensitive(HERO_BANNER_IMAGE, 'HERO_BANNER_IMAGE');
+  assertPublicImageExistsCaseSensitive(PROMO_LINEUP_IMAGE, 'PROMO_LINEUP_IMAGE');
+  for (const slide of HERO_SLIDES) {
+    assertPublicImageExistsCaseSensitive(slide.image, `HERO_SLIDES[${slide.id}]`);
+  }
+  for (const phone of SMARTPHONES) {
+    for (const img of phone.images) {
+      assertPublicImageExistsCaseSensitive(img.url, `${phone.id} gallery image`);
+    }
+    for (const color of phone.colors) {
+      assert.ok(color.image, `${phone.id} color ${color.name} must define an image`);
+      assertPublicImageExistsCaseSensitive(color.image, `${phone.id} color ${color.name}`);
+    }
+  }
+});
 
 test('every company has 7 to 8 smartphone models', () => {
   for (const brand of BRANDS) {

@@ -1,4 +1,4 @@
-export const SHOWROOM_IMAGE = '/src/assets/images/yasir_showroom_lahore_1794606073967.jpg';
+export const SHOWROOM_IMAGE = '/images/yasir_showroom_lahore_1794606073967.jpg';
 
 export interface AboutPillar {
   id: 'story' | 'verification' | 'care';

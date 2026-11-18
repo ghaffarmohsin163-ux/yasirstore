@@ -12,44 +12,44 @@ export const STORE_CONFIG = {
   reviewsCount: '4.2k+ Reviews',
 };
 
-// Local generated high-resolution studio imagery (Zero external fragile URLs)
-export const HERO_BANNER_IMAGE = '/src/assets/images/hero_flagship_blue_1794254969332.jpg';
-export const PROMO_LINEUP_IMAGE = '/src/assets/images/promo_lineup_blue_1794254970523.jpg';
+// Local studio imagery served from public/images/ for both dev and Netlify production builds
+export const HERO_BANNER_IMAGE = '/images/hero_flagship_blue_1794254969332.jpg';
+export const PROMO_LINEUP_IMAGE = '/images/promo_lineup_blue_1794254970523.jpg';
 
 // 28 Distinct Studio Smartphone Photos (Every model within every brand has a unique photo)
-const IMG_APPLE_BLUE = '/src/assets/images/phone_apple_blue_1794254970572.jpg';
-const IMG_DESERT_TITANIUM = '/src/assets/images/phone_desert_titanium_1794254972852.jpg';
-const IMG_IPHONE_16_ULTRAMARINE = '/src/assets/images/phone_iphone_16_ultramarine_1794257228605.jpg';
-const IMG_IPHONE_16_TEAL = '/src/assets/images/phone_iphone_16_teal_1794257229307.jpg';
-const IMG_IPHONE_SILVER_TITANIUM = '/src/assets/images/phone_iphone_silver_titanium_1794257229715.jpg';
-const IMG_IPHONE_15_ICEBLUE = '/src/assets/images/phone_iphone_15_iceblue_1794257229298.jpg';
-const IMG_IPHONE_14_PRO_PURPLE = '/src/assets/images/phone_iphone_14_pro_purple_1794257230274.jpg';
-const IMG_IPHONE_13_MIDNIGHT = '/src/assets/images/phone_iphone_13_midnight_1794257231094.jpg';
+const IMG_APPLE_BLUE = '/images/phone_apple_blue_1794254970572.jpg';
+const IMG_DESERT_TITANIUM = '/images/phone_desert_titanium_1794254972852.jpg';
+const IMG_IPHONE_16_ULTRAMARINE = '/images/phone_iphone_16_ultramarine_1794257228605.jpg';
+const IMG_IPHONE_16_TEAL = '/images/phone_iphone_16_teal_1794257229307.jpg';
+const IMG_IPHONE_SILVER_TITANIUM = '/images/phone_iphone_silver_titanium_1794257229715.jpg';
+const IMG_IPHONE_15_ICEBLUE = '/images/phone_iphone_15_iceblue_1794257229298.jpg';
+const IMG_IPHONE_14_PRO_PURPLE = '/images/phone_iphone_14_pro_purple_1794257230274.jpg';
+const IMG_IPHONE_13_MIDNIGHT = '/images/phone_iphone_13_midnight_1794257231094.jpg';
 
-const IMG_SAMSUNG_ULTRA_GRAY = '/src/assets/images/phone_samsung_ultra_gray_1794257231314.jpg';
-const IMG_SAMSUNG_S24_COBALT = '/src/assets/images/phone_samsung_s24_cobalt_1794257231484.jpg';
-const IMG_SAMSUNG_BLACK = '/src/assets/images/phone_samsung_black_1794254970109.jpg';
-const IMG_LAVENDER = '/src/assets/images/phone_lavender_edition_1794254973170.jpg';
-const IMG_SAMSUNG_Z_FOLD6 = '/src/assets/images/phone_samsung_z_fold6_1794257232023.jpg';
-const IMG_SAMSUNG_Z_FLIP6 = '/src/assets/images/phone_samsung_z_flip6_1794257232456.jpg';
-const IMG_SAMSUNG_A55_ICEBLUE = '/src/assets/images/phone_samsung_a55_iceblue_1794257232296.jpg';
+const IMG_SAMSUNG_ULTRA_GRAY = '/images/phone_samsung_ultra_gray_1794257231314.jpg';
+const IMG_SAMSUNG_S24_COBALT = '/images/phone_samsung_s24_cobalt_1794257231484.jpg';
+const IMG_SAMSUNG_BLACK = '/images/phone_samsung_black_1794254970109.jpg';
+const IMG_LAVENDER = '/images/phone_lavender_edition_1794254973170.jpg';
+const IMG_SAMSUNG_Z_FOLD6 = '/images/phone_samsung_z_fold6_1794257232023.jpg';
+const IMG_SAMSUNG_Z_FLIP6 = '/images/phone_samsung_z_flip6_1794257232456.jpg';
+const IMG_SAMSUNG_A55_ICEBLUE = '/images/phone_samsung_a55_iceblue_1794257232296.jpg';
 
-const IMG_PIXEL_PORCELAIN = '/src/assets/images/phone_pixel_porcelain_1794257233104.jpg';
-const IMG_GOOGLE_OBSIDIAN = '/src/assets/images/phone_google_obsidian_1794254970758.jpg';
-const IMG_PIXEL_HAZEL_SAGE = '/src/assets/images/phone_pixel_hazel_sage_1794257233340.jpg';
-const IMG_PIXEL_BAY_BLUE = '/src/assets/images/phone_pixel_bay_blue_1794257233724.jpg';
-const IMG_PIXEL_FOLD_OBSIDIAN = '/src/assets/images/phone_pixel_fold_obsidian_1794257234724.jpg';
+const IMG_PIXEL_PORCELAIN = '/images/phone_pixel_porcelain_1794257233104.jpg';
+const IMG_GOOGLE_OBSIDIAN = '/images/phone_google_obsidian_1794254970758.jpg';
+const IMG_PIXEL_HAZEL_SAGE = '/images/phone_pixel_hazel_sage_1794257233340.jpg';
+const IMG_PIXEL_BAY_BLUE = '/images/phone_pixel_bay_blue_1794257233724.jpg';
+const IMG_PIXEL_FOLD_OBSIDIAN = '/images/phone_pixel_fold_obsidian_1794257234724.jpg';
 
-const IMG_ONEPLUS_EMERALD = '/src/assets/images/phone_oneplus_emerald_1794254971546.jpg';
-const IMG_ONEPLUS_COOLBLUE = '/src/assets/images/phone_oneplus_coolblue_1794257234305.jpg';
-const IMG_ONEPLUS_OPEN_FOLD = '/src/assets/images/phone_oneplus_open_fold_1794257235463.jpg';
+const IMG_ONEPLUS_EMERALD = '/images/phone_oneplus_emerald_1794254971546.jpg';
+const IMG_ONEPLUS_COOLBLUE = '/images/phone_oneplus_coolblue_1794257234305.jpg';
+const IMG_ONEPLUS_OPEN_FOLD = '/images/phone_oneplus_open_fold_1794257235463.jpg';
 
-const IMG_XIAOMI_CERAMIC = '/src/assets/images/phone_xiaomi_ceramic_1794254971927.jpg';
-const IMG_XIAOMI_WHITE_LEICA = '/src/assets/images/phone_xiaomi_white_leica_1794257235198.jpg';
-const IMG_POCO_PERFORMANCE = '/src/assets/images/phone_poco_performance_1794257235218.jpg';
+const IMG_XIAOMI_CERAMIC = '/images/phone_xiaomi_ceramic_1794254971927.jpg';
+const IMG_XIAOMI_WHITE_LEICA = '/images/phone_xiaomi_white_leica_1794257235198.jpg';
+const IMG_POCO_PERFORMANCE = '/images/phone_poco_performance_1794257235218.jpg';
 
-const IMG_REALME_PEARL = '/src/assets/images/phone_realme_pearl_1794254972264.jpg';
-const IMG_REALME_CHAMPAGNE_GOLD = '/src/assets/images/phone_realme_champagne_gold_1794257236520.jpg';
+const IMG_REALME_PEARL = '/images/phone_realme_pearl_1794254972264.jpg';
+const IMG_REALME_CHAMPAGNE_GOLD = '/images/phone_realme_champagne_gold_1794257236520.jpg';
 
 export const BRANDS: BrandMeta[] = [
   { id: 'apple', name: 'Apple', tagline: '8 iPhone Models', accentColor: '#0F172A' },
